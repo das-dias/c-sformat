@@ -3,4 +3,4 @@ libtest
 libtest.d
 Makefile
 /src/libtest.c
-/src/Makefile
+/src/Makefile_Example
