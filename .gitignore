@@ -1,5 +1,6 @@
-/.vscode
 /obj/libtest.o
 libtest
 libtest.d
 Makefile
+/src/libtest.c
+/src/Makefile

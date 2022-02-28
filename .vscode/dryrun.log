@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/dasdias/SoftwareProjects/c-sformat'
+make: Leaving directory `/Users/dasdias/SoftwareProjects/c-sformat'
+ 
+make: *** No rule to make target `src/lib/hell/hell.h', needed by `obj/libsformat.o'.
+ 
