@@ -5,8 +5,8 @@
 * *[summary] String formatting library for ease of error logging.
  ***********************************
 */
-#ifndef SFORMAT_H
-#define SFORMAT_H
+#ifndef __SFORMAT_H__
+#define __SFORMAT_H__
 
 #pragma once
 
@@ -25,4 +25,4 @@
 */
 const char* sformat(const char*, ...);
 
-#endif // !SFORMAT_H
+#endif // !__SFORMAT_H__
