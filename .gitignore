@@ -1,0 +1,5 @@
+/.vscode
+/obj/libtest.o
+libtest
+libtest.d
+Makefile

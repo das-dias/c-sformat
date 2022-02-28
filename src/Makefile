@@ -7,12 +7,15 @@ EXEC = libtest libstaticsformat.a libsformat.so runtime_libtest static_libtest
 
 all: $(EXEC)
 
+# compiling into a library binary
 libsformat.o: libsformat.c sformat.h
 	$(CC) $(CFLAGS) -c libsformat.c
 
+# compiling into a shared, dynamic library binary (.so)
 libsformat.so: libsformat.c sformat.h
 	$(CC) $(CFLAGS) -fPIC -shared -o $@ libsformat.c -lc
 
+# compiling into a static library binary (.a)
 libstaticsformat.a: libsformat.o
 	ar rcs libstaticsformat.a libsformat.o
 
