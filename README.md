@@ -11,13 +11,17 @@ SFormat, or "String Formatter", is a library written in C to allow the productio
 ## Examples:
 
 ### (Code Snippet) libtest.c:
-```
+```C
 #include "sformat.h"
 
 int main(void)
 {
     printf("This is a %s %s !\n", "formatted", "string");
+    
+    /* declare a string using sformat */
     char* s = (char*) sformat("This is also a %s %s !! \n", "formatted", "string");
+
+    /* and print it! :) */
     printf("%s",s);
 }
 ```
